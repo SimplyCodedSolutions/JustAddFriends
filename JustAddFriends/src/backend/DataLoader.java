@@ -11,17 +11,6 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public abstract class DataLoader{
-	private static File recipeFile = new File("C:\\users\\eric\\dropbox\\JustAddFriends\\doc\\drinkRecipes.txt"), //TODO determine the file locations upon install.
-					taxiFile = new File("C:\\users\\eric\\dropbox\\JustAddFriends\\doc\\taxiInfo.txt"),
-					barFile = new File("C:\\users\\eric\\dropbox\\JustAddFriends\\doc\\bars.txt"),
-					contactListFile = new File("C:\\users\\eric\\dropbox\\JustAddFriends\\doc\\contactList.txt"),
-					profileFile = new File("C:\\users\\eric\\dropbox\\JustAddFriends\\doc\\myProfile.txt");
-	private static Profile profile = readInProfile(profileFile);
-	private static Contact[] contacts = readInContacts(contactListFile);
-	private static Recipe[] recipes = readInRecipes(recipeFile);
-	private static Bar[] bars = readInBars(barFile);
-	private static Taxi[] taxis = readInTaxis(taxiFile);
-	
 	/**
 	 * Initializes the user's profile data.
 	 * File is of the form:
@@ -33,7 +22,8 @@ public abstract class DataLoader{
 	 * @param file
 	 * @return The user's profile stored in data.
 	 */
-	public static Profile readInProfile(File file){
+ 	public static Profile readInProfile(){
+ 		File file = new File("C:\\users\\eric\\dropbox\\JustAddFriends\\doc\\myProfile.txt");
 		String name = "", streetName = "", postalCode = "";
 		Gender gender = Gender.M;
 		int streetNum = 0;
@@ -62,9 +52,9 @@ public abstract class DataLoader{
 	 * @param file
 	 * @return The contacts stored in the data file.
 	 */
-	public static Contact[] readInContacts(File file){
+	public static Contact[] readInContacts(){
 		ArrayList<Contact> contactList = new ArrayList<Contact>();
-		Contact[] contacts = new Contact[0];
+		File file = new File("C:\\users\\eric\\dropbox\\JustAddFriends\\doc\\contactList.txt");
 		String name, number;
 		Gender gender;
 		
@@ -80,7 +70,7 @@ public abstract class DataLoader{
 		}catch(FileNotFoundException fnfe){ fnfe.getMessage(); }
 		catch(InputMismatchException ime){ ime.getMessage(); }
 		
-		return contactList.toArray(contacts);
+		return contactList.toArray(new Contact[0]);
 	}//readInContacts()
 	
 	/**
@@ -94,10 +84,10 @@ public abstract class DataLoader{
 	 * @param file
 	 * @return The Recipes stored in data.
 	 */
-	public static Recipe[] readInRecipes(File file){
+	public static Recipe[] readInRecipes(){
 		ArrayList<Recipe> recipeList = new ArrayList<Recipe>();
 		ArrayList<String> temp;
-		Recipe[] recipes = new Recipe[0];
+		File file = new File("C:\\users\\eric\\dropbox\\JustAddFriends\\doc\\drinkRecipes.txt");
 		String[] ingredients = new String[0], prep = new String[0], stringArray = new String[0];
 		String recipeName, next;
 		Glass glass;
@@ -133,7 +123,7 @@ public abstract class DataLoader{
 			in.close();
 		}catch(FileNotFoundException fnfe){ fnfe.getMessage(); }
 		catch(InputMismatchException ime){ ime.getMessage(); }
-		return recipeList.toArray(recipes);
+		return recipeList.toArray(new Recipe[0]);
 	}//readInRecipes()
 	
 	/**
@@ -146,9 +136,9 @@ public abstract class DataLoader{
 	 * @param file
 	 * @return The list of local bars in data.
 	 */
-	public static Bar[] readInBars(File file){
+	public static Bar[] readInBars(){
 		ArrayList<Bar> barList = new ArrayList<Bar>();
-		Bar[] bars = new Bar[0];
+		File file = new File("C:\\users\\eric\\dropbox\\JustAddFriends\\doc\\bars.txt");
 		String name, type, streetName, postalCode, number;
 		int streetNumber, open, close;
 		
@@ -170,7 +160,7 @@ public abstract class DataLoader{
 		}catch(FileNotFoundException fnfe){ fnfe.getMessage(); }
 		catch(InputMismatchException ime){ ime.getMessage(); }
 		
-		return barList.toArray(bars);
+		return barList.toArray(new Bar[0]);
 	}//readInBars()
 	
 	/**
@@ -184,9 +174,9 @@ public abstract class DataLoader{
 	 * @param file
 	 * @return The taxi companies stored in the data file.
 	 */
-	public static Taxi[] readInTaxis(File file){
+	public static Taxi[] readInTaxis(){
 		ArrayList<Taxi> taxiList = new ArrayList<Taxi>();
-		Taxi[] taxis = new Taxi[0];
+		File file = new File("C:\\users\\eric\\dropbox\\JustAddFriends\\doc\\taxiInfo.txt");
 		String name, number, tollFree, region, next;
 		
 		try{
@@ -207,7 +197,15 @@ public abstract class DataLoader{
 		}catch(FileNotFoundException fnfe){ fnfe.getMessage(); }
 		catch(InputMismatchException ime){ ime.getMessage(); }
 		
-		return taxiList.toArray(taxis);
+		return taxiList.toArray(new Taxi[0]);
 	}//readInTaxis()
 	
+	public static Event[] readInEvents(){
+		ArrayList<Event> eventList = new ArrayList<Event>();
+		File file = file = new File("C:\\users\\eric\\dropbox\\JustAddFriends\\doc\\events.txt");;
+		//TODO add file.
+		return eventList.toArray(new Event[0]);
+	}//readInEvents()
 }//DataLoader
+
+//TODO determine the file locations upon install.
