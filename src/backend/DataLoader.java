@@ -200,10 +200,26 @@ public abstract class DataLoader{
 		return taxiList.toArray(new Taxi[0]);
 	}//readInTaxis()
 	
+	/**
+	 * Initializes the list of potential challenge events for the evening.
+	 * @return The events listed in the file.
+	 */
 	public static Event[] readInEvents(){
 		ArrayList<Event> eventList = new ArrayList<Event>();
-		File file = file = new File("C:\\users\\eric\\dropbox\\JustAddFriends\\doc\\events.txt");;
-		//TODO add file.
+		File file = new File("C:\\users\\eric\\dropbox\\JustAddFriends\\doc\\events.txt");
+		String name, description;
+		
+		try{
+			Scanner in = new Scanner(new FileReader(file));
+			while(in.hasNext()){
+				name = in.nextLine();
+				description = in.nextLine();
+				eventList.add(new Event(name, description));
+			}
+			in.close();
+		}catch(FileNotFoundException fnfe){ fnfe.getMessage(); }
+		catch(InputMismatchException ime){ ime.getMessage(); }
+		
 		return eventList.toArray(new Event[0]);
 	}//readInEvents()
 }//DataLoader
