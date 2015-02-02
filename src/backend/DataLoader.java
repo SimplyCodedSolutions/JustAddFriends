@@ -78,7 +78,8 @@ public abstract class DataLoader{
 	 * recipeFile form:
 	 * (Advanced) Glassware
 	 * Recipe Name
-	 * Ingredients...
+	 * Ingredient...
+	 * Ingredient Colour code...
 	 * *Prep...
 	 * 
 	 * @param file
@@ -87,8 +88,10 @@ public abstract class DataLoader{
 	public static Recipe[] readInRecipes(){
 		ArrayList<Recipe> recipeList = new ArrayList<Recipe>();
 		ArrayList<String> temp;
+		ArrayList<Ingredient> tempIngredients;
+		Ingredient[] ingredients = new Ingredient[0];
 		File file = new File("C:\\users\\eric\\dropbox\\JustAddFriends\\doc\\drinkRecipes.txt");
-		String[] ingredients = new String[0], prep = new String[0], stringArray = new String[0];
+		String[] prep, stringArray = new String[0];
 		String recipeName, next;
 		Glass glass;
 		boolean advanced = false;
@@ -96,20 +99,21 @@ public abstract class DataLoader{
 		try{
 			Scanner in = new Scanner(new FileReader(file));
 			while(in.hasNext()){
-				temp = new ArrayList<String>();
+				temp = new ArrayList<String>();						//Resets the ArrayList to flush out data already used.
+				tempIngredients = new ArrayList<Ingredient>();
 				
 				if((next = in.nextLine()).contains("ADVANCED")){
 					advanced = true;
-					glass = Glass.valueOf(next.substring(9));		//Takes the part after "Advanced " only.
+					glass = Glass.valueOf(next.substring(9));		//Takes the part after "ADVANCED " only.
 				}else{
 					glass = Glass.valueOf(next);
 				}
 				recipeName = in.nextLine();
 				
-				while((next = in.nextLine()).charAt(0) != '*'){		//Reads in ingredients.
-					temp.add(next);
+				while((next = in.nextLine()).charAt(0) != '*'){		//Reads in ingredients.//TODO Verify this reads in correctly, first need to get file with codes from Mr. Deevy.
+					tempIngredients.add(new Ingredient(next, in.nextInt(), in.nextInt(), in.nextInt()));
 				}
-				ingredients = temp.toArray(stringArray);
+				ingredients = tempIngredients.toArray(ingredients);
 				temp = new ArrayList<String>();
 				
 				do{													//Reads in prep.

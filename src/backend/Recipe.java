@@ -5,7 +5,8 @@ package backend;
  */
 
 public class Recipe{
-	private String[] ingredients, prep;
+	private Ingredient[] ingredients;
+	private String[] prep;
 	private String name;
 	private Glass glass;
 	private boolean advanced;
@@ -20,7 +21,7 @@ public class Recipe{
 	 * @param garnishes
 	 * @param prep
 	 */
-	public Recipe(String name, Glass glass, boolean adv, String[] ingredients, String[] prep){
+	public Recipe(String name, Glass glass, boolean adv,Ingredient[] ingredients, String[] prep){
 		this.advanced = adv;
 		this.name = name;
 		this.glass = glass;
@@ -36,7 +37,7 @@ public class Recipe{
 	public String toString(){ return name; }//toString()
 	
 	// Getters //
-	public String[] getIngredients(){ return ingredients; }//getIngredients()
+	public Ingredient[] getIngredients(){ return ingredients; }//getIngredients()
 	public String[] getPrep(){ return prep; }//getPrep()
 	public Glass getGlass(){ return glass; }//getGlass()
 	public boolean getAdvanced(){ return advanced; }//getAdvanced()
