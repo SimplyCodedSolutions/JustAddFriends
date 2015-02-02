@@ -1,0 +1,18 @@
+Rum, ice tea, bourbon, coconut creme, brandy, cointreau, amaretto, frangelico, crown royal: 				204, 83, 30
+Vodka, Water, white rum, club soda, gin, tonic, sambuca, goldschlager, peach schnapps, peppermint schnapps:		255, 255, 255
+Coke, kahlua, worcestshire sauce, creme de cacao, demerara rum, guinness, jagermeister: 				0, 0, 0
+lime juice:														225, 237, 103
+lemon juice, pineapple juice, passion fruit juice: 									243, 241, 68
+orange juice: 														243, 160, 2
+grenadine, cranberry juice, grand marnier:										113, 24, 30
+tequila, syrup, butterscotch schnapps:											229, 209, 158
+rye whiskey, orange liqueur, scotch, southern comfort:									255, 156, 3
+tomato juice, tobasco sauce: 												225, 43, 3
+beer: 															204, 140, 30
+cider: 															182, 97, 31
+blue curacao: 														0, 137, 215
+irish cream, espresso:													204, 171, 126
+7-Up: 															209, 253, 217
+raspberry liqueur:													182, 29, 57
+sour apple schnapps:													125, 194, 65
+melon liqueur:														0, 183, 29
