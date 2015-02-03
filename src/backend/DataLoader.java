@@ -11,7 +11,6 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public abstract class DataLoader{
-	
 	/**
 	 * Initializes the user's profile data.
 	 * File is of the form:
@@ -90,8 +89,8 @@ public abstract class DataLoader{
 		ArrayList<Recipe> recipeList = new ArrayList<Recipe>();
 		ArrayList<String> temp;
 		ArrayList<Ingredient> tempIngredients;
-		Ingredient[] ingredients = new Ingredient[0];
-		File file = new File("C:\\users\\eric\\dropbox\\JustAddFriends\\doc\\drinkRecipes.txt");
+		Ingredient[] ingredients;
+		File file = new File("C:\\users\\eric\\dropbox\\Git\\Clones\\JustAddFriends\\doc\\drinkRecipes.txt");
 		String recipeName, next;
 		Glass glass;
 		int colour1, colour2, colour3;
@@ -111,17 +110,19 @@ public abstract class DataLoader{
 				}
 				recipeName = in.nextLine();
 				
-				while((next = in.nextLine()).charAt(0) != '*'){		//Reads in ingredients.//TODO Verify this reads in correctly, first need to get file with codes from Mr. Deevy.
+				while((next = in.nextLine()).charAt(0) != '*'){		//Reads in ingredients.//TODO Verify this reads in correctly.
 					try{											//Uses this format if there's colour code.
 						colour1 = in.nextInt();
 						colour2 = in.nextInt();
 						colour3 = in.nextInt();
+						in.nextLine();
 						tempIngredients.add(new Ingredient(next, colour1, colour2, colour3));
 					}catch(Exception e){							//If not a colour code (N/A), leaves colour as null.
 						tempIngredients.add(new Ingredient(next));
+						in.nextLine();
 					}
 				}
-				ingredients = tempIngredients.toArray(ingredients);
+				ingredients = tempIngredients.toArray(new Ingredient[0]);
 				temp = new ArrayList<String>();
 				
 				do{													//Reads in prep.
