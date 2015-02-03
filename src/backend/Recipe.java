@@ -12,16 +12,14 @@ public class Recipe{
 	private boolean advanced;
 	
 	/**
-	 * Instantiates the recipe.
-	 * @param type
-	 * @param adv
+	 * Instantiates a new recipe.
 	 * @param name
 	 * @param glass
+	 * @param adv
 	 * @param ingredients
-	 * @param garnishes
 	 * @param prep
 	 */
-	public Recipe(String name, Glass glass, boolean adv,Ingredient[] ingredients, String[] prep){
+	public Recipe(String name, Glass glass, boolean adv, Ingredient[] ingredients, String[] prep){
 		this.advanced = adv;
 		this.name = name;
 		this.glass = glass;
