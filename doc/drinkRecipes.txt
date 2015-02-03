@@ -1,9 +1,13 @@
 ADVANCED ROCKS
 White Russian
 Vodka (2.5oz)
+255, 255, 255
 Kahlua (1oz)
+76, 34, 35
 Fresh cream (1.5oz)
+237, 239, 215
 Ice cubes (2)
+N/A
 *Pour Kahlua and Vodka into glass with ice.
 *Shake the cream, pour on top.
 
@@ -11,379 +15,548 @@ MARTINI
 Daiquiri
 Martini glass
 White rum (1.5oz)
+204, 83, 30
 Lime juice (3/4oz)
+225, 237, 103
 Brown sugar (1tsp)
+N/A
 *Pour all ingredients into shaker with ice.
 *Strain into glass.
 
 HIGHBALL
 Ice Pick
 Vodka (1.5oz)
+255, 255, 255
 Ice tea (10.5oz)
+204, 83, 30
 Lemon segment
+N/A
 Ice cubes (3)
+N/A
 *Pour vodka and then iced tea into glass, stir well.
 *Garnish.
 
 ROCKS
 Cuba Libre
 Cola (10.5oz)
+76, 34, 35
 White rum (1.5oz)
+255, 255, 255
 Lime segment
+N/A
 Ice cubes (3)
+N/A
 *Pour in rum over ice
 *Add in cola, garnish.
 
 HIGHBALL
 Tequila Sunrise
 Orange juice (9oz)
+243, 160, 2
 Grenadine (3/4oz)
+113, 24, 30
 Tequila (1.5oz)
+229, 209, 158
 Orange segment
+N/A
 Cherry
+N/A
 *Pour in tequila and orange juice over ice, mix.
 *Add grenadine, don't mix! (it'll sink to the bottom), garnish.
 
 HIGHBALL
 Screwdriver
 Orange juice (4.5oz)
+243, 160, 2
 vodka (1.5oz)
+255, 255, 255
 Ice cubes (2)
+N/A
 *Pour in OJ and vodka over ice, mix and garnish.
 
 ROCKS
 Old Fashioned
-Bourbon or rye whiskey (4.5oz)
-Bitters (2 dashes)
-Sugar cube (1)
 Club soda (splash)
+255, 255, 255
+Bourbon or rye whiskey (4.5oz)
+204, 83, 30
+Bitters (2 dashes)
+N/A
+Sugar cube (1)
+N/A
 *Muddle sugar cube and bitters in the glass, add a splash of club soda to wet.
 *Add ice, pour in whiskey, mix.
 
 MARTINI
 Margarita
 Lime juice (2oz)
+225, 237, 103
 Triple Sec (1oz)
+253, 251, 236
 Tequila(2oz)
+229, 209, 158
 Salt rimmed
+N/A
 Crushed ice cubes (2)
+N/A
 Lime segment
+N/A
 *Rub rim of glass with lime slice, dip in the salt.
 *Shake other ingredients with ice, pour into glass (watch out for the salt!), garnish.
 
 ROCKS
 Gin & Tonic
-Tonic (4.5oz)
+Club soda (4.5oz)
+255, 255, 255
 Gin (1.5oz)
+231, 232, 234
 Ice cubes (2)
+N/A
 *Mix all ingredients over ice.
 Cocktail
 
 HIGHBALL
 John Collins
 Club soda (8.5oz)
+255, 255, 255
 Bourbon whiskey (1.5oz)
+204, 83, 30
 Lemon Juice (1oz)
-Sugar syrup (0.5oz)
+243, 241, 68
+Simple syrup (0.5oz)
+229, 209, 158
 Cherry
+N/A
 Orange segment
+N/A
 Ice cubes (3)
+N/A
 *Mix gin, lemon juice and syrup in the glass with ice.
 *Top up with club soda, garnish.
 
 HIGHBALL
 Tom Collins
 Gin (1.5oz)
+231, 232, 234
 Lemon juice (1oz)
+243, 241, 68
 Simple syrup (0.5oz)
+229, 209, 158
 Club soda (2oz)
+255, 255, 255
 Lemon segment
+N/A
 Cherry
+N/A
 *Mix gin, lemon juice and syrup in the glass with ice.
 *Top up with club soda, garnish.
 
 COCKTAIL
 Pina Colada
 Pineapple juice (2oz)
+241, 214, 111
 White rum (1oz)
+255, 255, 255
 Coconut creme (2oz)
+241, 239, 201
 Cherry
+N/A
 Brown sugar (1tsp)
+N/A
 Pineapple wedge
+N/A
 Crushed ice
+N/A
 *Mix all ingredients in glass until smooth, garnish.
 
 MARTINI
 Gimlet
 Lime juice (0.5oz)
+225, 237, 103
 Gin (1.5oz)
+231, 232, 234
 Club soda (splash)
+255, 255, 255
 *Mix all ingredients, garnish.
 
 HIGHBALL
 Bloody Mary
 Tomato juice (4.5oz)
+225, 43, 3
 Vodka (1.5oz)
+255, 255, 255
 Ice cubes (2)
+N/A
 Celery Stick
+N/A
 Worcestshire sauce (dash)
+N/A
 Salt rimmed
+N/A
 *Add dashes of salt and pepper, Worcestshire and Tabasco sauce.
 *Pour remaining ingredients in over ice, stir gently, garnish.
 
 HIGHBALL
 Snakebite
 Beer (1/2)
+204, 140, 30
 Hard cider (1/2)
+182, 97, 31
 *Fill glass halfway with cider, fill other half with beer.
 
 ADVANCED HIGHBALL
 Mint Julep
 Water (10 oz)
+255, 255, 255
 Bourbon whiskey (2oz)
+204, 83, 30
 Mint leaf (4)
+N/A
 Brown sugar (1tsp)
+N/A
 Crushed ice cubes (4)
+N/A
 *Muddle sugar, mint and water in the glass, add ice to fill glass.
 *Add bourbon, stir well, garnish.
 
 ADVANCED HIGHBALL
 Harvey Wallbanger
 Galliano liqueur (0.5oz)
+250, 228, 116
 Orange juice (6oz)
+243, 160, 2
 Vodka (1oz)
+255, 255, 255
 Cherry
+N/A
 Orange segment
+N/A
 Brown sugar (1tsp)
+N/A
 Ice cubes (3)
+N/A
 *Stir vodka and orange juice together over ice.
 *Float galliano on top, garnish.
 
 ADVANCED MARTINI
 Alexander
 Gin or Brandy (1.5oz)
+231, 232, 234 OR 204, 83, 30
 Creme de cacao (3/4oz)
+170, 133, 104
 Fresh cream (1.5oz)
+237, 239, 215
 Nutmeg
+N/A
 *Shake all ingredients with ice, strain into glass.
 *Sprinkle nutmeg on top.
 
 ADVANCED HIGHBALL
 Stars & Stripes
-Highball glass
 Fresh cream (1/3oz)
+237, 239, 215
 Blue curacao (1/3oz)
+0, 137, 215
 Grenadine (1/3oz)
+113, 24, 30
 *Pour grenadine, cream and curacao, in that order, into glass.
 *Try not to mix.
 
 ADVANCED HIGHBALL
 Long Island Iced Tea
 Club soda (splash)
+255, 255, 255
 Sweet/sour mix (1.5oz)
+167, 163, 74
 Triple sec (1oz)
+253, 251, 236
 Gin (1oz)
+231, 232, 234
 White rum (1oz)
+255, 255, 255
 Tequila (1oz)
+229, 209, 158
 Vodka (1oz)
+255, 255, 255
 *Add all ingredients into highball, stir gently, garnish.
 
 ADVANCED COCKTAIL
 Zombie
 De merara rum (0.5oz)
+76, 34, 35
 Passion fruit juice (1oz)
+243, 241, 68
 Pineapple juice (1oz)
+241, 214, 111
 Vodka (1oz)
+255, 255, 255
 Orange juice (1oz)
+243, 160, 2
 Apricot brandy (0.5oz)
+238, 112, 27
 White rum (2.5oz)
+255, 255, 255
 Jamaica rum (1oz)
+204, 83, 30
 Cherry
+N/A
 Brown sugar (1tsp)
+N/A
 Lime segment
+N/A
 Mint sprig
+N/A
 *Shake ingredients with ice, pour into glass, garnish.
 
 ADVANCED ROCKS
 Whiskey Sour
 Bourbon whiskey (1.5oz)
+204, 83, 30
 Lemon juice (1oz)
+243, 241, 68
 Simple syrup (0.5oz)
+229, 209, 158
 Ice cubes (2)
+N/A
 *Shake ingredients with ice, strain into glass, garnish.
 
 SHOT
 Red-headed Slut
 Cranberry juice (1oz)
+113, 24, 30
 Peach Schnapps (0.5oz)
+255, 255, 255
 Jagermeister (3/4oz)
+76, 34, 35
 *Add Jagermeister and schnapps.
 *Fill with cranberry juice, stir.
 
 SHOT
 Kamikaze
 Vodka (2oz)
+255, 255, 255
 Orange liqueur (0.5oz)
+255, 156, 3
 Lime juice (dash)
+N/A
 *Shake all ingredients together with ice.
 *Strain into glass.
 
 SHOT
 B-52
-Shot glass
 Kahlua (1oz)
+76, 34, 35
 Irish cream (1oz)
+204, 171, 126
 Grand Marnier or Cointreau (1oz)
+113, 24, 30
 *Pour Kahlua, then irish cream, then grand marnier or cointreau and be careful not to mix.
 *Served flaming.
 
 SHOT
 Orgasm
 Irish cream (1oz)
+204, 171, 126
 Amaretto liqueur (1oz)
+204, 83, 30
 Kahlua (1oz)
+76, 34, 35
 *Pour all ingredients into glass.
 
 SHOT
 Black Russian
 Vodka (1.5oz)
+255, 255, 255
 Kahlua (1oz)
+76, 34, 35
 *Pour both ingredients into glass, mix.
 
 SHOT
 Four Horsemen
 Whiskey (0.5oz)
+204, 83, 30
 Bourbon (0.5oz)
+204, 83, 30
 Scotch (0.5oz)
+255, 156, 3
 Tequila (0.5oz)
+255, 255, 255
 *Pour all ingredients into glass, mix.
 
 SHOT
 Blow Job
 Kahlua (1oz)
+76, 34, 35
 Irish cream (1oz)
+204, 171, 126
 Whipped cream (on top)
+N/A
 *Pour kahlua and then irish cream into glass, top with whipped cream.
 *Drink without using your hands!!
 
 SHOT
 Anaconda
 Whiskey (3/4oz)
+204, 83, 30
 Sambuca (3/4oz)
+255, 255, 255
 *Pour both ingredients into glass.
 
 SHOT
 Buttery Nipple
 Butterscotch liqueur (1oz)
+229, 209, 158
 Irish cream (1/2oz)
+204, 171, 126
 *Add butterscotch liqueur first, layer irish cream on top.
 
 DROPSHOT
 Gladiator
 Amaretto (1/2oz)
+204, 83, 30
 Southern Comfort (1/2oz)
+255, 156, 3
 7-Up (equal parts)
+209, 253, 217
 Orange juice (equal parts)
+243, 160, 2
 *Mix amaretto and southern comfort in a shot glass.
 *Mix 7-Up and OJ in rocks glass (leave room for the shot), drop the shot!
 
 DROPSHOT
 Irish Car Bomb
 Guiness (3/4 pint)
+76, 34, 35
 Irish cream (1oz)
+204, 171, 126
 Whiskey (1oz)
+204, 83, 30
 *Mix whiskey and irish cream in shot glass.
 *Pour guiness into pint glass, drop the shot!
 
 DROPSHOT
 Jager Bomb
 Jagermeister (1.5oz)
+76, 34, 35
 Red Bull (1/2 can)
+211, 141, 20
 *Pour Red Bull into the highball glass, and Jagermeister into shot glass.
 *Drop the shot!
 
 SHOT
 Lemon Drop
 Vodka (1.5oz)
+255, 255, 255
 Lemon wedge
+N/A
 Sugar
+N/A
 *Coat lemon wedge with sugar, do shot, bite lemon.
 
 SHOT
 Mind Eraser
 Vodka (1oz)
+255, 255, 255
 Kahlua (1oz)
+76, 34, 35
 Club soda (1oz)
+255, 255, 255
 Lime segment
+N/A
 Straw
+N/A
 *Pour Kahlua, then vodka, then club soda layered in glass.
 *Try to drink the whole thing in one go through the straw.
 *Last one done buys next round!!
 
 SHOT
 Pirate's Treasure
-Goldshlager cinnamon Schnapps (3/4oz)
+Goldshlager(3/4oz)
+?, ? ,?
 Rum (3/4oz)
+204, 83, 30
 *Pour goldshlager and then rum layered in glass.
 
 SHOT
 Red, White & Blue
 Grenadine (1/3oz)
+113, 24, 30
 Peach Schnapps (1/3oz)
+255, 255, 255
 Blue Curacao (1.3oz)
+0, 137, 215
 *Pour grenadine, then schnapps, then blue curacao layered in glass.
 
 SHOT
 Sammy Jager
 Jagermeister (1oz)
+76, 34, 35
 Sambuca (1oz)
+255, 255, 255
 *Shake all ingredients with ice, strain into shot glass.
 
 SHOT
 Wake the Dead
 Kahlua (1oz)
+76, 34, 35
 Tequila (1oz)
+229, 209, 158
 Espresso (0.5oz)
+76, 34, 35
 *Shake all ingredients with ice, strain into shot glass.
 
 ADVANCED SHOT
 Peanut Butter & Jelly
 Frangelico (1oz)
+204, 83, 30
 Raspberry liqueur (1oz)
+182, 29, 57
 Butterscotch Schnapps (1/2oz)
+229, 209, 158
 *Shake all ingredients with ice, strain into shot glass.
 
 ADVANCED SHOT
 Washington Apple
-Crown Royal/whiskey (1oz)
+Crown Royal/Whiskey (1oz)
+204, 83, 30
 Sour apple schnapps (1oz)
+125, 194, 65
 Cranberry juice (1oz)
+113, 24, 30
 Apple slice
+N/A
 *Shake all ingredients with ice, strain into shot glass.
 *Garnish
 
 ADVANCED SHOT
 Prarie Fire
-Shot glass
 Tequila (1oz)
+229, 209, 158
 Tobasco sauce (2 drops)
+N/A
 *Pour tequila into shot glass.
 *Add drops of tequila.
 
 ADVANCED SHOT
 Snowball
-Shot glass
 Brandy (3/4oz)
+204, 83, 30
 Peppermint schnapps (3/4oz)
+255, 255, 255
 White creme de cacao (3/4oz)
+255, 255, 255
 *Shake all ingredients with ice, strain into shot glass.
 
 ADVANCED SHOT
 Stoplight
 Vodka (3oz)
+255, 255, 255
 Cranberry juice (splash)
+113, 24, 30
 Orange juice (splash)
+243, 160, 2
 Melon liqueur (splash)
+0, 183, 29
 *Pour three shots of vodka, leave a little room at the top.
 *Add splash of cranberry juice to one, OJ to another and melon liqueur to the last one.
 *Drink all three in quick succession.
@@ -391,6 +564,9 @@ Melon liqueur (splash)
 ADVANCED SHOT
 Tootsie Roll
 Kahlua (0.5oz)
+76, 34, 35
 Orange juice (0.5oz)
+243, 160, 2
 Vodka (0.5oz)
+255, 255, 255
 *Shake all ingredients with ice, strain into shot glass.
