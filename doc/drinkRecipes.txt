@@ -1,102 +1,134 @@
 ADVANCED ROCKS
 White Russian
-Vodka (2.5oz)
+Vodka
+2.5 oz
 255 255 255
-Kahlua (1oz)
+Kahlua 
+1 oz
 76 34 35
-Fresh cream (1.5oz)
+Fresh cream
+1.5 oz
 237 239 215
-Ice cubes (2)
+Ice cubes
+2 cubes
 N/A
 *Pour Kahlua and Vodka into glass with ice.
 *Shake the cream, pour on top.
 
 MARTINI
 Daiquiri
-White rum (1.5oz)
+White rum
+1.5 oz
 204 83 30
-Lime juice (3/4oz)
+Lime juice
+0.75 oz
 225 237 103
-Brown sugar (1tsp)
+Brown sugar
+1 tsp
 N/A
 *Pour all ingredients into shaker with ice.
 *Strain into glass.
 
 HIGHBALL
 Ice Pick
-Vodka (1.5oz)
+Vodka
+1.5 oz
 255 255 255
-Ice tea (10.5oz)
+Ice tea
+10.5 oz
 204 83 30
 Lemon segment
+1 segment
 N/A
-Ice cubes (3)
+Ice cubes
+3 cubes
 N/A
 *Pour vodka and then iced tea into glass, stir well.
 *Garnish.
 
 ROCKS
 Cuba Libre
-Cola (10.5oz)
+Cola
+10.5 oz
 76 34 35
-White rum (1.5oz)
+White rum
+1.5 oz
 255 255 255
 Lime segment
+1 segment
 N/A
-Ice cubes (3)
+Ice cubes
+3 cubes
 N/A
 *Pour in rum over ice
 *Add in cola, garnish.
 
 HIGHBALL
 Tequila Sunrise
-Orange juice (9oz)
+Orange juice
+9 oz
 243 160 2
-Grenadine (3/4oz)
+Grenadine
+0.75 oz
 113 24 30
-Tequila (1.5oz)
+Tequila
+1.5 oz
 229 209 158
 Orange segment
+1 segment
 N/A
 Cherry
+1 cherry
 N/A
 *Pour in tequila and orange juice over ice, mix.
 *Add grenadine, don't mix! (it'll sink to the bottom), garnish.
 
 HIGHBALL
 Screwdriver
-Orange juice (4.5oz)
+Orange juice
+4.5 oz
 243 160 2
-vodka (1.5oz)
+vodka
+1.5 oz
 255 255 255
-Ice cubes (2)
+Ice cubes
+2 cubes
 N/A
 *Pour in OJ and vodka over ice, mix and garnish.
 
 ROCKS
 Old Fashioned
-Club soda (splash)
+Club soda
+1 splash
 255 255 255
-Bourbon or rye whiskey (4.5oz)
+Bourbon or rye whiskey
+4.5 oz
 204 83 30
-Bitters (2 dashes)
+Bitters
+2 dashes
 N/A
-Sugar cube (1)
+Sugar cube
+1 cube
 N/A
 *Muddle sugar cube and bitters in the glass, add a splash of club soda to wet.
 *Add ice, pour in whiskey, mix.
 
 MARTINI
 Margarita
-Lime juice (2oz)
+Lime juice
+2 oz
 225 237 103
-Triple Sec (1oz)
+Triple Sec
+1 oz
 253 251 236
-Tequila(2oz)
+Tequila
+2 oz
 229 209 158
 Salt rimmed
+1 N/A
 N/A
-Crushed ice cubes (2)
+Crushed ice cubes
+2 cubes
 N/A
 Lime segment
 N/A
@@ -528,9 +560,11 @@ N/A
 
 ADVANCED SHOT
 Prarie Fire
-Tequila (1oz)
+Tequila 
+1 oz
 229 209 158
-Tobasco sauce (2 drops)
+Tobasco sauce
+2 drops
 N/A
 *Pour tequila into shot glass.
 *Add drops of tequila.
