@@ -11,6 +11,21 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public abstract class DataLoader{
+	
+	public static void main(String[] args){
+		Recipe[] recipes = readInRecipes();
+		Ingredient[] data;
+		for(int i = 0; i < recipes.length; i++){
+			data = recipes[i].getIngredients();
+			for(int j = 0; j < data.length; j++){
+				System.out.println(data[j]);
+			}
+			//System.out.println(recipes[i]);
+			//System.out.println(recipes[i].getAdvanced());
+			//System.out.println(recipes[i]);
+		}
+	}
+	
 	/**
 	 * Initializes the user's profile data.
 	 * File is of the form:
@@ -91,8 +106,9 @@ public abstract class DataLoader{
 		ArrayList<Ingredient> tempIngredients;
 		Ingredient[] ingredients;
 		File file = new File("C:\\users\\eric\\dropbox\\Git\\Clones\\JustAddFriends\\doc\\drinkRecipes.txt");
-		String recipeName, next;
+		String recipeName, next, unit;
 		Glass glass;
+		double quantity;
 		int colour1, colour2, colour3;
 		boolean advanced = false;
 		
@@ -110,23 +126,26 @@ public abstract class DataLoader{
 				}
 				recipeName = in.nextLine();
 				
-				while((next = in.nextLine()).charAt(0) != '*'){		//Reads in ingredients.//TODO Verify this reads in correctly.
+				while((next = in.nextLine()).charAt(0) != '*'){		//Reads in ingredients.
+					quantity = Double.parseDouble(in.next());
+					unit = in.next();
+					in.nextLine();
 					try{											//Uses this format if there's colour code.
 						colour1 = in.nextInt();
 						colour2 = in.nextInt();
 						colour3 = in.nextInt();
 						in.nextLine();
-						tempIngredients.add(new Ingredient(next, colour1, colour2, colour3));
+						tempIngredients.add(new Ingredient(next, quantity, unit, colour1, colour2, colour3));
 					}catch(Exception e){							//If not a colour code (N/A), leaves colour as null.
-						tempIngredients.add(new Ingredient(next));
 						in.nextLine();
+						tempIngredients.add(new Ingredient(next, quantity, unit));
 					}
 				}
 				ingredients = tempIngredients.toArray(new Ingredient[0]);
 				temp = new ArrayList<String>();
 				
 				do{													//Reads in prep.
-					temp.add(next);
+					temp.add(next.substring(1, next.length()));
 				}while(in.hasNext() && !(next = in.nextLine()).equals(""));
 				
 				recipeList.add(new Recipe(recipeName, glass, advanced, ingredients, temp.toArray(new String[0])));
